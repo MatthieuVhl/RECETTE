@@ -3,7 +3,7 @@ import React from 'react';
 import {CATEGORIES} from '../restaurant/data/data';
 import Categorie from '../models/Categories';
 
-export default function Acceuil() {
+export default function Accueil() {
   return (
     <View style={styles.container}>
       {CATEGORIES.map(categorie => (

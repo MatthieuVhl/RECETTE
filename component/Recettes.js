@@ -12,7 +12,7 @@ export default function Recette({navigation}) {
 
       <Button
         title="retour a l'accueil"
-        onPress={() => navigation.navigate('ListRecette')}
+        onPress={() => navigation.navigate('Accueil')}
       />
     </View>
   );

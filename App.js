@@ -1,19 +1,20 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {StyleSheet} from 'react-native';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import Categories from './component/Categories';
 import Recette from './component/Recettes';
+import ListRecette from './component/ListRecette';
+import Accueil from './component/Accueil';
 
 const Stack = createNativeStackNavigator();
 
 export default function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Categories">
+      <Stack.Navigator initialRouteName="Accueil">
         <Stack.Screen
           name="Accueil"
-          component={Categories}
+          component={Accueil}
           options={{title: 'All Categories'}}
         />
         <Stack.Screen
