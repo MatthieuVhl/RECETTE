@@ -1,7 +1,7 @@
 import {StyleSheet, Text, View} from 'react-native';
 import React from 'react';
 import {CATEGORIES} from '../restaurant/data/data';
-import Categorie from '../models/category';
+import Categorie from '../models/Categories';
 
 export default function Acceuil() {
   return (
